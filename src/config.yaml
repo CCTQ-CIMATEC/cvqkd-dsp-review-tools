@@ -1,0 +1,17 @@
+pdfs_dir: "./pdfs"
+excel_path: "./Planilha_Triagem_APISSER.xlsx"
+db_path: "./data/l_db.sqlite"
+excel_sheet: "Sheet1"
+column_map:
+  title: ["title","título","titulo","article title","paper title"]
+  authors: ["authors","autores"]
+  year: ["year","ano"]
+  venue: ["venue","journal","conference"]
+  doi: ["doi"]
+  url: ["url","link"]
+  abstract: ["abstract","resumo"]
+  decision_stage: ["stage","etapa","status","decision","decisão","decisao"]
+  include_flag: ["include","incluir","included","eligibility","eligible"]
+  notes: ["notes","observações","observacoes","comentários","comentarios"]
+  rq_list: ["rq","rqs","perguntas","research questions"]
+rqs: ["RQ1","RQ2","RQ3","RQ4","RQ5","RQ6"]
